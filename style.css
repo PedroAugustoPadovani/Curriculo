@@ -1,0 +1,92 @@
+/* div{
+    border: solid red;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00001f; 
+}
+
+.section {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-info {
+    padding-top: 200px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.txtimg{
+    padding-top: 130px;
+    padding-right: 50px;
+}
+
+.txtimg2{
+    padding-top: 20px;
+}
+
+img{
+    padding-left: 200px;
+    padding-right: 400px;
+}
+
+.section h1 {
+    color: #333;
+}
+
+.section h4{
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000; /* Cor padrão dos ícones */
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077B5; /* Cor do LinkedIn ao passar o mouse */
+}
+
+/* Estilos para ícones específicos */
+
+.social-icons .fab.fa-whatsapp {
+    color: #25d366; /* Cor do WhatsApp */
+}
+
+.social-icons .fab.fa-whatsapp:hover {
+    color: #1da851; /* Cor do WhatsApp (hover) */
+}
+
+.social-icons .fab.fa-github {
+    color: #333; /* Cor do GitHub */
+}
+
+.social-icons .fab.fa-github:hover {
+    color: #24292e; /* Cor do GitHub (hover) */
+}
