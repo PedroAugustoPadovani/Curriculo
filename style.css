@@ -76,7 +76,7 @@ img{
 /* Estilos para ícones específicos */
 
 .social-icons .fab.fa-whatsapp {
-    color: #25d366; /* Cor do WhatsApp */
+    color: #333; /* Cor do WhatsApp */
 }
 
 .social-icons .fab.fa-whatsapp:hover {
